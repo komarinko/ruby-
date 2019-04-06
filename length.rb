@@ -7,3 +7,8 @@ puts webcamp
 
 pi = 3.14
 puts pi
+
+puts 100
+puts 100 + 5
+puts "Rubyを学習"
+# 出力結果＝Rubyを学習
