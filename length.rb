@@ -92,3 +92,33 @@ def hello_world
 	'Hello, World!'
 end
 puts hello_world
+
+
+def greeting(name)
+	"Hello, #{name}!"
+end
+puts greeting('John')
+#引数
+
+
+def greeting
+	'Hello, John!'
+	'Hi, John!'
+end
+#最後優先
+#戻り値
+puts greeting
+
+
+
+def greeting
+	return 'Hello, John'
+	'Hi, John!'
+end
+puts greeting
+#return
+
+puts 8 % 3
+puts 5 % 5
+#余り値
+
