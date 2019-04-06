@@ -87,3 +87,8 @@ while i <= 10 do
 	puts i
 	i += 1
 end
+
+def hello_world
+	'Hello, World!'
+end
+puts hello_world
